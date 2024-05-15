@@ -1,7 +1,102 @@
 #menu
 {
 	position: fixed;
+	top: 0; /* Stick the menu to the top */
+    left: 0; /* Stick the menu to the left */
 	width: 100%;
 	height: 35px;
-	background: white;
+	/*background: deepskyblue;*/
+	display: flex;
+	background-image: url("background.png");
+}
+
+#menu li
+{
+	list-style: none;
+	font-size: 16px; /* Heading font size */
+	margin: 10px;
+}
+
+#menu a
+{
+	color: black; /* Set the color for unvisited links */
+    text-decoration: none; /* Remove underlines from links */
+	font-weight: bold; /* Make the text bold */
+	font-family: Gisha, sans-serif; /* Change the font */
+}
+
+#menu a:visited
+{
+	color: black; /* Set the color for unvisited links */
+    text-decoration: none; /* Remove underlines from links */
+	font-weight: bold; /* Make the text bold */
+	font-family: Gisha, sans-serif; /* Change the font */
+}
+
+#menu a:hover
+{
+	background-color: bisque;
+}
+
+.logo
+{
+	width: 50px; /* Adjust the width to match the desired size */
+	height: 35px; /* Automatically adjust the height to maintain aspect ratio */
+	/*margin-right: 10px; !* Add some spacing between the logo and the menu items *!*/
+}
+
+.logo:hover
+{
+	background-image: url("background.png");
+}
+
+.section
+{
+	color: black; /* Set the color for unvisited links */
+	font-family: Gisha, sans-serif; /* Change the font */
+}
+
+.about-text
+{
+	text-align: center;
+}
+
+
+.photos-text
+{
+	display: block;
+    margin: 0 auto; /* Center the image horizontally */
+
+}
+
+.photos-text ul {
+    list-style-type: none;
+    padding: 0;
+    margin: 0;
+    text-align: center;
+}
+
+.photos-text ul li {
+    display: inline-block;
+    margin: 0 10px; /* Adjust as needed */
+}
+
+.fb-like
+{
+	text-align: center;
+}
+
+
+h2
+{
+	font-size: 24px; /* Heading font size */
+    margin-bottom: 10px; /* Bottom margin for heading */
+	text-decoration: underline; /* Remove underlines from links */
+	font-weight: bold; /* Make the text bold */
+	background-image: url("background.png");
+	background-repeat: repeat;
+	/*background-color: deepskyblue;*/
+	background-size: cover;
+	text-align: center;
+
 }
