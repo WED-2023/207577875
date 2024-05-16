@@ -1,6 +1,11 @@
 # Stephen Hawking Website
 
-This repository contains a website dedicated to the renowned theoretical physicist, cosmologist, and author, Stephen Hawking.
+This is a simple website featuring information about Stephen Hawking, including his biography, photos, playlist, social media integration, QR code, Q&A section, and a contact form.
+
+## Website Link
+The website can be accessed at [https://wed-2023.github.io/207577875/](https://wed-2023.github.io/207577875/).
+
+Created by Guy Biton - 207577875.
 
 ## Table of Contents
 
