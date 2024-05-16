@@ -29,7 +29,7 @@ A collection of photos showcasing various moments in the life of Stephen Hawking
 
 ## My Playlist <a name="playlist"></a>
 
-A playlist of videos related to Stephen Hawking.
+A playlist of Stephen Hawking's favorite songs.
 
 ## Give Me A Like <a name="like"></a>
 
