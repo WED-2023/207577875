@@ -1,10 +1,15 @@
 <!DOCTYPE html>
-<html>
+<html lang="en">
     <head>
         <link rel="stylesheet" type="text/css" href="style.css" />
+        <meta charset="UTF-8">
+        <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/emojionearea/3.4.2/emojionearea.min.css"/>
         <title>Stephen Hawking</title>
     </head>
     <body>
+        <div id="fb-root">
+            <script async defer crossorigin="anonymous" src="https://connect.facebook.net/he_IL/sdk.js#xfbml=1&version=v19.0" nonce="i8jW5EFC"></script>
+        </div>
         <div id="menu">
             <a href="#about">
                 <img src="https://pawprintfamily.com/wp-content/uploads/2022/02/Stephen-Hawking-Product-Image-1024x1024.png" alt="Logo" class="logo">
@@ -13,7 +18,7 @@
             <li><a href="#photos">My Photos</a></li>
             <li><a href="#playlist">My Playlist</a></li>
             <li><a href="#like">Like</a></li>
-            <li><a href="#qrcoder">QR code</a></li>
+            <li><a href="#qrcode">QR code</a></li>
             <li><a href="#qna">Q&A</a></li>
             <li><a href="#contact">Contact Me</a></li>
         </div>
@@ -32,61 +37,166 @@
                 <br>
                 <h2>My Photos</h2>
                 <br/>
-                <ul>
-                    <li>
-                        <img src="https://cdn.cnn.com/cnn/interactive/2018/03/world/stephen-hawking-cnnphotos/media/02.jpg" alt="img1" class="img1"  width="200" height="200">
-                    </li>
-                    <li>
-                        <img src="https://cdn.cnn.com/cnn/interactive/2018/03/world/stephen-hawking-cnnphotos/media/05.jpg" alt="img2" class="img2"  width="200" height="200">
-                    </li>
-                    <li>
-                        <img src="https://cdn.cnn.com/cnn/interactive/2018/03/world/stephen-hawking-cnnphotos/media/08.jpg" alt="img3" class="img3"  width="200" height="200">
-                    </li>
-                    <li>
-                        <img src="https://cdn.cnn.com/cnn/interactive/2018/03/world/stephen-hawking-cnnphotos/media/09.jpg" alt="img4" class="img4"  width="200" height="200">
-                    </li>
-                    <li>
-                        <img src="https://cdn.cnn.com/cnn/interactive/2018/03/world/stephen-hawking-cnnphotos/media/24.jpg" alt="img5" class="img5"  width="200" height="200">
-                    </li>
-                    <li>
-                        <img src="https://cdn.cnn.com/cnn/interactive/2018/03/world/stephen-hawking-cnnphotos/media/17.jpg" alt="img6" class="img6"  width="200" height="200">
-                    </li>
-                    <li>
-                        <img src="https://cdn.cnn.com/cnn/interactive/2018/03/world/stephen-hawking-cnnphotos/media/18.jpg" alt="img7" class="img7"  width="200" height="200">
-                    </li>
-                    <li>
-                        <img src="https://cdn.cnn.com/cnn/interactive/2018/03/world/stephen-hawking-cnnphotos/media/19.jpg" alt="img8" class="img8"  width="200" height="200">
-                    </li>
-                    <li>
-                        <img src="https://cdn.cnn.com/cnn/interactive/2018/03/world/stephen-hawking-cnnphotos/media/21.jpg" alt="img8" class="img8"  width="200" height="200">
-                    </li>
-                    <li>
-                        <img src="https://cdn.cnn.com/cnn/interactive/2018/03/world/stephen-hawking-cnnphotos/media/23.jpg" alt="img10" class="img10"  width="200" height="200">
-                    </li>
-                </ul>
+                <div class="row">
+                    <div class="column">
+                        <img src="https://cdn.cnn.com/cnn/interactive/2018/03/world/stephen-hawking-cnnphotos/media/02.jpg" width="230px" height="230px" onclick="openModal();currentSlide(1)" class="hover-shadow" alt="">
+                    </div>
+                    <div class="column">
+                        <img src="https://cdn.cnn.com/cnn/interactive/2018/03/world/stephen-hawking-cnnphotos/media/05.jpg" width="230px" height="230px" onclick="openModal();currentSlide(2)" class="hover-shadow" alt="">
+                    </div>
+                    <div class="column">
+                        <img src="https://cdn.cnn.com/cnn/interactive/2018/03/world/stephen-hawking-cnnphotos/media/08.jpg" width="230px" height="230px" onclick="openModal();currentSlide(3)" class="hover-shadow" alt="">
+                    </div>
+                    <div class="column">
+                        <img src="https://cdn.cnn.com/cnn/interactive/2018/03/world/stephen-hawking-cnnphotos/media/09.jpg" width="230px" height="230px" onclick="openModal();currentSlide(4)" class="hover-shadow" alt="">
+                    </div>
+                    <div class="column">
+                        <img src="https://cdn.cnn.com/cnn/interactive/2018/03/world/stephen-hawking-cnnphotos/media/24.jpg" width="230px" height="230px" onclick="openModal();currentSlide(5)" class="hover-shadow" alt="">
+                    </div>
+                    <div class="column">
+                        <img src="https://cdn.cnn.com/cnn/interactive/2018/03/world/stephen-hawking-cnnphotos/media/17.jpg" width="230px" height="230px" onclick="openModal();currentSlide(6)" class="hover-shadow" alt="">
+                    </div>
+                    <div class="column">
+                        <img src="https://cdn.cnn.com/cnn/interactive/2018/03/world/stephen-hawking-cnnphotos/media/18.jpg" width="230px" height="230px" onclick="openModal();currentSlide(7)" class="hover-shadow" alt="">
+                    </div>
+                    <div class="column">
+                        <img src="https://cdn.cnn.com/cnn/interactive/2018/03/world/stephen-hawking-cnnphotos/media/19.jpg" width="230px" height="230px" onclick="openModal();currentSlide(8)" class="hover-shadow" alt="">
+                    </div>
+                    <div class="column">
+                        <img src="https://cdn.cnn.com/cnn/interactive/2018/03/world/stephen-hawking-cnnphotos/media/21.jpg" width="230px" height="230px" onclick="openModal();currentSlide(9)" class="hover-shadow" alt="">
+                    </div>
+                    <div class="column">
+                        <img src="https://cdn.cnn.com/cnn/interactive/2018/03/world/stephen-hawking-cnnphotos/media/23.jpg" width="230px" height="230px" onclick="openModal();currentSlide(10)" class="hover-shadow" alt="">
+                    </div>
+                </div>
+                <div id="myModal" class="modal">
+                    <span class="close cursor" onclick="closeModal()">&times;</span>
+                    <div class="modal-content">
+
+                        <div class="mySlides">
+                            <div class="numbertext">1 / 10</div>
+                            <img src="https://cdn.cnn.com/cnn/interactive/2018/03/world/stephen-hawking-cnnphotos/media/02.jpg" width="380px" height="380px" style="width:100%" alt="">
+                        </div>
+
+                        <div class="mySlides">
+                            <div class="numbertext">2 / 10</div>
+                            <img src="https://cdn.cnn.com/cnn/interactive/2018/03/world/stephen-hawking-cnnphotos/media/05.jpg" width="380px" height="380px" style="width:100%" alt="">
+                        </div>
+
+                        <div class="mySlides">
+                            <div class="numbertext">3 / 10</div>
+                            <img src="https://cdn.cnn.com/cnn/interactive/2018/03/world/stephen-hawking-cnnphotos/media/08.jpg" width="380px" height="380px" style="width:100%" alt="">
+                        </div>
+
+                        <div class="mySlides">
+                            <div class="numbertext">4 / 10</div>
+                            <img src="https://cdn.cnn.com/cnn/interactive/2018/03/world/stephen-hawking-cnnphotos/media/09.jpg" width="380px" height="380px" style="width:100%" alt="">
+                        </div>
+
+                        <div class="mySlides">
+                            <div class="numbertext">5 / 10</div>
+                            <img src="https://cdn.cnn.com/cnn/interactive/2018/03/world/stephen-hawking-cnnphotos/media/24.jpg" width="380px" height="380px" style="width:100%" alt="">
+                        </div>
+
+                        <div class="mySlides">
+                            <div class="numbertext">6 / 10</div>
+                            <img src="https://cdn.cnn.com/cnn/interactive/2018/03/world/stephen-hawking-cnnphotos/media/17.jpg" width="380px" height="380px" style="width:100%" alt="">
+                        </div>
+
+                        <div class="mySlides">
+                            <div class="numbertext">7 / 10</div>
+                            <img src="https://cdn.cnn.com/cnn/interactive/2018/03/world/stephen-hawking-cnnphotos/media/18.jpg" width="380px" height="380px" style="width:100%" alt="">
+                        </div>
+
+                        <div class="mySlides">
+                            <div class="numbertext">8 / 10</div>
+                            <img src="https://cdn.cnn.com/cnn/interactive/2018/03/world/stephen-hawking-cnnphotos/media/19.jpg" width="380px" height="380px" style="width:100%" alt="">
+                        </div>
+
+                        <div class="mySlides">
+                            <div class="numbertext">9 / 10</div>
+                            <img src="https://cdn.cnn.com/cnn/interactive/2018/03/world/stephen-hawking-cnnphotos/media/21.jpg" width="380px" height="380px" style="width:100%" alt="">
+                        </div>
+
+                        <div class="mySlides">
+                            <div class="numbertext">10 / 10</div>
+                            <img src="https://cdn.cnn.com/cnn/interactive/2018/03/world/stephen-hawking-cnnphotos/media/23.jpg" width="380px" height="380px" style="width:100%" alt="">
+                        </div>
+
+                        <!-- Next/previous controls -->
+                        <a class="prev" onclick="plusSlides(-1)">&#10094;</a>
+                        <a class="next" onclick="plusSlides(1)">&#10095;</a>
+
+                        <!-- Caption text -->
+                        <div class="caption-container">
+                          <p id="caption"></p>
+                        </div>
+
+                        <!-- Thumbnail image controls -->
+                        <div class="column">
+                          <img class="demo" src="https://cdn.cnn.com/cnn/interactive/2018/03/world/stephen-hawking-cnnphotos/media/02.jpg" width="380px" height="380px" onclick="currentSlide(1)" alt="Hawking, left, enjoys a cookout with his family in Cambridge, England, in 1977. He married Jane Wilde, right, in 1965 — two years after he was diagnosed with ALS. The two had three children together — Jane, Robert and Tim — before divorcing in 1995">
+                        </div>
+
+                        <div class="column">
+                          <img class="demo" src="https://cdn.cnn.com/cnn/interactive/2018/03/world/stephen-hawking-cnnphotos/media/05.jpg" width="380px" height="380px" onclick="currentSlide(2)" alt="Hawking was diagnosed with ALS when he was 21 years old, and he was initially only given a few years to live. The disease left him wheelchair-bound and paralyzed. He was able to move only a few fingers on one hand, and he was often dependent on others or on technology. Hawking used a speech synthesizer that allowed him to speak in a computerized voice with an American accent. ">
+                        </div>
+
+                        <div class="column">
+                          <img class="demo" src="https://cdn.cnn.com/cnn/interactive/2018/03/world/stephen-hawking-cnnphotos/media/08.jpg" width="380px" height="380px" onclick="currentSlide(3)" alt="Hawking makes a guest appearance on an episode of “Star Trek: The Next Generation” in 1993. Hawking was playing himself in a scene that also included portrayals of Albert Einstein and Sir Isaac Newton.">
+                        </div>
+
+                        <div class="column">
+                          <img class="demo" src="https://cdn.cnn.com/cnn/interactive/2018/03/world/stephen-hawking-cnnphotos/media/09.jpg" width="380px" height="380px" onclick="currentSlide(4)" alt="In 1995, Hawking married his second wife, Elaine Mason. She was one of his former nurses. They were divorced in 2006.">
+                        </div>
+
+                        <div class="column">
+                          <img class="demo" src="https://cdn.cnn.com/cnn/interactive/2018/03/world/stephen-hawking-cnnphotos/media/24.jpg" width="380px" height="380px" onclick="currentSlide(5)" alt="Hawking gets to experience zero gravity on a flight near Florida in 2007. “I have always tried to overcome the limitations of my condition and lead as full a life as possible,” he told The New York Times in 2011.">
+                        </div>
+
+                        <div class="column">
+                          <img class="demo" src="https://cdn.cnn.com/cnn/interactive/2018/03/world/stephen-hawking-cnnphotos/media/17.jpg" width="380px" height="380px" onclick="currentSlide(6)" alt="Despite being a British citizen, Hawking received the Presidential Medal of Freedom, the US’s highest civilian honor, in 2009.">
+                        </div>
+
+                        <div class="column">
+                          <img class="demo" src="https://cdn.cnn.com/cnn/interactive/2018/03/world/stephen-hawking-cnnphotos/media/18.jpg" width="380px" height="380px" onclick="currentSlide(7)" alt="In 2014, Hawking unveiled a scientific formula to predict the chances of England’s soccer team winning the World Cup.">
+                        </div>
+
+                        <div class="column">
+                          <img class="demo" src="https://cdn.cnn.com/cnn/interactive/2018/03/world/stephen-hawking-cnnphotos/media/19.jpg" width="380px" height="380px" onclick="currentSlide(8)" alt="Britain’s Queen Elizabeth II meets with Hawking during a reception in London in 2014.">
+                        </div>
+
+                        <div class="column">
+                          <img class="demo" src="https://cdn.cnn.com/cnn/interactive/2018/03/world/stephen-hawking-cnnphotos/media/21.jpg" width="380px" height="380px" onclick="currentSlide(9)" alt="Pope Francis greets Hawking at the Vatican in 2016. Hawking was attending a plenary session of the Pontifical Academy of Sciences.">
+                        </div>
+
+                        <div class="column">
+                          <img class="demo" src="https://cdn.cnn.com/cnn/interactive/2018/03/world/stephen-hawking-cnnphotos/media/23.jpg" width="380px" height="380px" onclick="currentSlide(10)" alt="Hawking was granted the Honorary Freedom of the city of London in 2017. It’s the city’s highest honor.">
+                        </div>
+                    </div>
+                </div>
             </div>
         </section>
 
         <section id="playlist" class="section">
-            <br/>
+        <br/>
             <h2>My Playlist</h2>
             <br/>
             <div style="text-align: center;">
-                <iframe width="680" height="450" src="https://www.youtube.com/embed/videoseries?si=6RDY0m15nAd6M8ap&amp;list=PLUDgELSZT_JS0TAOD3G9K-vPTgHfVgKBx" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
+                <iframe width="680" height="450" src="https://www.youtube.com/embed/videoseries?si=6RDY0m15nAd6M8ap&amp;list=PLUDgELSZT_JS0TAOD3G9K-vPTgHfVgKBx" title="YouTube video player" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
             </div>
         </section>
 
-<!--        TODO: Fix Like Button-->
         <section id="like" class="section">
             <br/>
             <h2>Give Me A Like</h2>
             <br/>
-            <div style="text-align: center;">
-                <iframe src="https://www.facebook.com/plugins/like.php?href=https%3A%2F%2Fwed-2023.github.io%2Fdocs%2Fplugins%2F&width=74&layout=box_count&action=like&size=large&share=false&height=65&appId" width="74" height="65" style="border:none;overflow:hidden" scrolling="no" frameborder="0" allowfullscreen="true" allow="autoplay; clipboard-write; encrypted-media; picture-in-picture; web-share"></iframe>
-            </div>
+<!--            <div class="fb-like" style="text-align: center;">-->
+            <div class="fb-like" style="margin-left: 355px; text-align: center;" data-href="https://wed-2023.github.io/207577875" data-width="" data-layout="" data-action="" data-size="large" data-share="true"></div>
+<!--            <div class="fb-like" style="text-align: center; margin-left: -135px;" data-href="https://wed-2023.github.io/207577875" data-width="" data-layout="" data-action="" data-size="large" data-share="false"></div>-->
+<!--            </div>-->
         </section>
 
-        <section id="qrcoder" class="section">
+        <section id="qrcode" class="section">
             <br/>
             <h2>Scan My Code</h2>
             <br/>
@@ -113,35 +223,97 @@
         </section>
 
         <section id="contact" class="section">
-            <br/>
-            <br/>
-            <br/>
-            <h2>Contact Me</h2>
-            <br/>
-            <br/>
-            <br/>
-            <br/>
-            <br/>
-            <br/>
-            <br/>
-            <br/>
-            <br/>
-            <br/>
+            <div class="contact-form">
+                <br/>
+                <h2>Contact Me</h2>
+                <form id="contactForm" method="post" action="https://api.web3forms.com/submit">
+
+                    <input type="hidden" name="access_key" value="df60383c-3147-46ac-bc49-db2f90c52275">
+
+                    <label for="email">Email:</label>
+                    <input type="email" id="email" name="email" required><br>
+                    <label for="message">Message:</label>
+                    <div class="messageText">
+                        <textarea id="message" name="message" rows="4" cols="50" required></textarea>
+                    </div>
+                    <br>
+                    <div class="h-captcha" data-captcha="true"></div>
+                    <button type="submit">Submit</button>
+                </form>
+
+
+
+                <script src="https://web3forms.com/client/script.js" async defer></script>
+                <script src="https://code.jquery.com/jquery-3.7.1.min.js"></script>
+                <script src="https://cdnjs.cloudflare.com/ajax/libs/emojionearea/3.4.2/emojionearea.min.js"></script>
+                <script>
+                    $(document).ready(function()
+                    {
+                        $("#message").emojioneArea({
+                        pickerPosition: "bottom",
+                        tonesStyle: "bullet"
+                        });
+                    });
+                </script>
+            </div>
         </section>
 
+        <script type="text/javascript">
+            $(function(){
+              $("#nav a").click(function(e){
+                e.preventDefault();
+                $('html,body').scrollTo(this.hash,this.hash);
+              });
+            });
+        </script>
 
-    <script type="text/javascript">
-        $(function(){
-          $("#nav a").click(function(e){
-            e.preventDefault();
-            $('html,body').scrollTo(this.hash,this.hash);
-          });
-        });
-    </script>
-    <script type="text/javascript">
-         $(document).scroll(function() {
-            $('#menu').toggle($(this).scrollTop()>1000)
-         });
-     </script>
+        <script type="text/javascript">
+             $(document).scroll(function() {
+                $('#menu').toggle($(this).scrollTop()>1000)
+             });
+        </script>
+
+        <script>
+            // Open the Modal
+            function openModal() {
+              document.getElementById("myModal").style.display = "block";
+            }
+
+            // Close the Modal
+            function closeModal() {
+              document.getElementById("myModal").style.display = "none";
+            }
+
+            var slideIndex = 1;
+            showSlides(slideIndex);
+
+            // Next/previous controls
+            function plusSlides(n) {
+              showSlides(slideIndex += n);
+            }
+
+            // Thumbnail image controls
+            function currentSlide(n) {
+              showSlides(slideIndex = n);
+            }
+
+            function showSlides(n) {
+              var i;
+              var slides = document.getElementsByClassName("mySlides");
+              var dots = document.getElementsByClassName("demo");
+              var captionText = document.getElementById("caption");
+              if (n > slides.length) {slideIndex = 1}
+              if (n < 1) {slideIndex = slides.length}
+              for (i = 0; i < slides.length; i++) {
+                slides[i].style.display = "none";
+              }
+              for (i = 0; i < dots.length; i++) {
+                dots[i].className = dots[i].className.replace(" active", "");
+              }
+              slides[slideIndex-1].style.display = "block";
+              dots[slideIndex-1].className += " active";
+              captionText.innerHTML = dots[slideIndex-1].alt;
+            }
+        </script>
     </body>
 </html>
