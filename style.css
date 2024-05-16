@@ -249,7 +249,7 @@ img.hover-shadow {
 .messageText
 {
     float: none;
-    width: 48%;
+    width: 400px;
     padding: 1%;
     margin: 0 auto; /* Centers the element horizontally */
     text-align: left;
