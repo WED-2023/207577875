@@ -5,7 +5,7 @@ This is a simple website featuring information about Stephen Hawking, including 
 ## Website Link
 The website can be accessed at [https://wed-2023.github.io/207577875/](https://wed-2023.github.io/207577875/).
 
-Created by Guy Biton - 207577875.
+**Created by Guy Biton - 207577875.**
 
 ## Table of Contents
 
