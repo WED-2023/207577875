@@ -268,3 +268,32 @@ img.hover-shadow {
 .h-captcha {
     margin-bottom: 15px;
 }
+
+.q\&a
+{
+    direction: rtl;
+    font-size: 18px;
+    font-family: Gisha, sans-serif;
+}
+
+.q\&a h3
+{
+    font-size: 23px;
+    font-weight: bold;
+    text-decoration: underline;
+    font-family: Gisha, sans-serif;
+}
+
+.q\&a h4
+{
+    font-size: 22px;
+    text-decoration: underline;
+    font-family: Gisha, sans-serif;
+}
+
+.q\&a h5
+{
+    font-size: 18px;
+    font-weight: bold;
+    font-family: Gisha, sans-serif;
+}
