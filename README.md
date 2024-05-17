@@ -46,4 +46,5 @@ A section providing answers to frequently asked questions about the differences 
 ## Contact Me <a name="contact"></a>
 
 Feel free to reach out by filling out the contact form.
+The message will be sent to my email with all the details.
 
