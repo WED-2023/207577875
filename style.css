@@ -5,7 +5,6 @@
     left: 0; /* Stick the menu to the left */
 	width: 100%;
 	height: 35px;
-	/*background: deepskyblue;*/
 	display: flex;
 	background-image: url("background.png");
 }
@@ -13,24 +12,24 @@
 #menu li
 {
 	list-style: none;
-	font-size: 16px; /* Heading font size */
+	font-size: 16px;
 	margin: 10px;
 }
 
 #menu a
 {
-	color: black; /* Set the color for unvisited links */
-    text-decoration: none; /* Remove underlines from links */
-	font-weight: bold; /* Make the text bold */
-	font-family: Gisha, sans-serif; /* Change the font */
+	color: black;
+    text-decoration: none;
+	font-weight: bold;
+	font-family: Gisha, sans-serif;
 }
 
 #menu a:visited
 {
-	color: black; /* Set the color for unvisited links */
+	color: black;
     text-decoration: none; /* Remove underlines from links */
-	font-weight: bold; /* Make the text bold */
-	font-family: Gisha, sans-serif; /* Change the font */
+	font-weight: bold;
+	font-family: Gisha, sans-serif;
 }
 
 #menu a:hover
@@ -40,9 +39,8 @@
 
 .logo
 {
-	width: 50px; /* Adjust the width to match the desired size */
-	height: 35px; /* Automatically adjust the height to maintain aspect ratio */
-	/*margin-right: 10px; !* Add some spacing between the logo and the menu items *!*/
+	width: 50px;
+	height: 35px;
 }
 
 .logo:hover
@@ -52,8 +50,8 @@
 
 .section
 {
-	color: black; /* Set the color for unvisited links */
-	font-family: Gisha, sans-serif; /* Change the font */
+	color: black;
+	font-family: Gisha, sans-serif;
 }
 
 .about-text
@@ -61,22 +59,14 @@
 	text-align: center;
 }
 
-
-.photos-text
-{
-	/*display: block;*/
-    /*margin: 0 auto; !* Center the image horizontally *!*/
-}
-
 h2
 {
-	font-size: 24px; /* Heading font size */
-    margin-bottom: 10px; /* Bottom margin for heading */
-	text-decoration: underline; /* Remove underlines from links */
-	font-weight: bold; /* Make the text bold */
+	font-size: 24px;
+    margin-bottom: 10px;
+	text-decoration: underline;
+	font-weight: bold;
 	background-image: url("background.png");
 	background-repeat: repeat;
-	/*background-color: deepskyblue;*/
 	background-size: cover;
 	text-align: center;
 
@@ -93,7 +83,7 @@ h2
     clear: both;
 }
 
-/* Create four equal columns that floats next to eachother */
+/* Create four equal columns that floats next to each-other */
 .column {
     float: left;
     width: 20%; /* Adjust the width to create four equal columns */
